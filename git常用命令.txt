@@ -3,7 +3,7 @@ git commit -m 'desc'
 git reset --hard 版本号（例HEAD^）					版本回退
 git checkout -- file_name 									恢复修改（丢弃add 前修改的）
 git log --pretty=oneline file_name
-git reflog
+git reflog																	显示历史命令
 git branch																	查看分支
 git branch branch_name 											创建分支
 git checkout branch_name										切换分支
